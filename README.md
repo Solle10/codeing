@@ -1,19 +1,17 @@
-# codeing
-codeingames
-Hacking at Robbercity
+# codeingame
+
+# Hacking at Robbercity
 
 import sys
 import math
 
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+
 
 m1 = bytes.fromhex(input())  # M ^ A
 m2 = bytes.fromhex(input())  # M ^ A ^ B
 m3 = bytes.fromhex(input())  # M ^ B
 
-# Write an answer using print
-# To debug: print("Debug messages...", file=sys.stderr, flush=True)
+
 
 
 xorbyte = bytes(m1^m2^m3 for m1,m2,m3 in zip(m1,m2,m3))
@@ -23,18 +21,16 @@ print(xorbyte.decode())
 
 
 
-Decode The Message
+# Decode the message
 import sys
 import math
 
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
 
 p = int(input())
 c = input()
 
-# Write an answer using print
-# To debug: print("Debug messages...", file=sys.stderr, flush=True)
+Write an answer using print
+ debug: print("Debug messages...", file=sys.stderr, flush=True)
 
 answer=""
 
